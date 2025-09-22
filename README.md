@@ -77,16 +77,12 @@ Why chosen?
 * Faster training compared to larger models like EfficientNetV2-L or Vision Transformers.
 * Achieves **state-of-the-art performance** on small-to-medium datasets.
 
-
-
-
-
 ## ⚠️ Disclaimer
 
 This model is for **research and educational purposes only**.
 It should **not be used as a substitute for professional medical diagnosis**.
----
- This version emphasizes:  
+
+This version emphasizes:  
 - **Transfer learning**  
 - **EfficientNetV2-S architecture**  
 - **Why it’s chosen over others**  
