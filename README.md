@@ -24,14 +24,6 @@ Instead of training from scratch (which requires massive data and compute), this
 - A pretrained **EfficientNetV2-S** (trained on ImageNet).
 - The final classification layer was replaced with a new layer suitable for **binary classification** (2 classes).
 
-```python
-import torchvision.models as models
-import torch.nn as nn
-
-model = models.efficientnet_v2_s(pretrained=True)
-num_classes = 2
-model.classifier[1] = nn.Linear(model.classifier[1].in_features, num_classes)
-````
 
 ### 2. Dataset
 
