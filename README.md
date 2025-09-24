@@ -19,7 +19,7 @@ This project leverages **deep learning** to build an automated system that can c
 
 ## 🧠 Approach
 
-### 1. Transfer Learning
+### 1. Transfer Learning / Fine-Tuning
 Instead of training from scratch (which requires massive data and compute), this project uses **transfer learning**:
 - A pretrained **EfficientNetV2-S** (trained on ImageNet).
 - The final classification layer was replaced with a new layer suitable for **binary classification** (2 classes).
